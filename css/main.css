@@ -1,7 +1,8 @@
-body{
+body {
     margin: 0;
     color: #32325d;
 }
+
 .logo{
     display: block;
     margin-top: 125px;
@@ -46,4 +47,42 @@ button.main{
     height: 42px;
     box-shadow: -7px 7px 20px rgba(132, 92, 255, 0.2);
     color: white;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color:#212240;
+    min-height: 727px;
+    margin-top: 5834px;
+    padding-top: 120px;
+}
+.footer-logo{
+    display: block;
+    width: 156px;
+    height: 50px;
+}
+div.conteiner1{
+    display: flex;
+    justify-content: space-between;
+    height: 318px;
+    margin-left: 342px;
+    margin-right: 352px;
+    color: white;
+    background-color: #212240;
+}
+div.comunications{
+    display: flex;
+    flex-direction: column;
+}
+div.about-us{
+    display: flex;
+    flex-direction: column;
+}
+div.offerings{
+    display: flex;
+    flex-direction: column;
+}
+div.left-footer{
+    display: flex;
+    flex-direction: column;
 }
