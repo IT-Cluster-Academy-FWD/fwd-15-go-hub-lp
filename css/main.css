@@ -1,4 +1,5 @@
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     color: #32325d;
 }
@@ -11,10 +12,12 @@ body {
     width: 100%;
     margin-right: 497px;
 }
+
 header{
     display: flex;
     justify-content: space-between;
 }
+
 .right-header{
     display: flex;
     align-items: center;
@@ -22,6 +25,7 @@ header{
     margin-right: 411px;
     margin-left: 131px;
 }
+
 ul.navigation{
     display: flex;
     list-style: none;
@@ -30,6 +34,7 @@ ul.navigation{
     align-items: center;
     width: 464px
 }
+
 ul.navigation > li{
     text-decoration: none;
     margin-right: 52px;
@@ -37,9 +42,11 @@ ul.navigation > li{
     font-weight: 700;
     line-height: 62px;
 }
+
 ul.navigation > li > a{
     text-decoration: none;
 }
+
 button.main{
     background-color: #845cff;
     border-radius: 3px;
@@ -47,7 +54,10 @@ button.main{
     height: 42px;
     box-shadow: -7px 7px 20px rgba(132, 92, 255, 0.2);
     color: white;
+    margin-left: 45px;
+
 }
+
 footer{
     display: flex;
     flex-direction: column;
@@ -55,12 +65,16 @@ footer{
     min-height: 727px;
     margin-top: 5834px;
     padding-top: 120px;
+    height: 727px;
 }
+
 .footer-logo{
+    background-color:#212240;
     display: block;
     width: 156px;
     height: 50px;
 }
+
 div.conteiner1{
     display: flex;
     justify-content: space-between;
@@ -70,19 +84,55 @@ div.conteiner1{
     color: white;
     background-color: #212240;
 }
-div.comunications{
+
+div.comunication{
     display: flex;
     flex-direction: column;
+    line-height: 30px;
+    margin-top: auto;
 }
+
 div.about-us{
     display: flex;
     flex-direction: column;
+    line-height: 50px;
 }
+
 div.offerings{
     display: flex;
     flex-direction: column;
+    line-height: 62px;
 }
+
+div.support{
+    line-height: 50px;
+}
+
 div.left-footer{
     display: flex;
     flex-direction: column;
+}
+
+div.under-footer{
+    display: flex;
+    justify-content: space-between;
+    height: 16px;
+    margin-top: 280px;
+}
+
+div.left-copyright{
+    color: #555377;
+    padding-left: 344px;
+}
+
+div.right-copyright{
+    display: flex;
+    justify-content: space-between;
+    width: 264px;
+    color: #555377;
+    padding-right: 346px;
+}
+
+.footer{
+    display: block;
 }
